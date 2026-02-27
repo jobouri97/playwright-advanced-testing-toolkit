@@ -29,7 +29,7 @@ test('visual: products page snapshot @visual @stable', async ({ page }) => {
 
     const inventory = page.locator('.inventory_list');
     await page.locator('.inventory_list').evaluate(el => {
-        (el as HTMLElement).style.border = '5px solid red';
+       // (el as HTMLElement).style.border = '5px solid red';
     });
     await expect(inventory).toHaveScreenshot('products-inventory.png');
 });
