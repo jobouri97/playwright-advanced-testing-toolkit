@@ -1,3 +1,5 @@
+[![Playwright Tests](https://github.com/jobouri97/playwright-advanced-testing-toolkit/actions/workflows/playwright.yml/badge.svg)](https://github.com/jobouri97/playwright-advanced-testing-toolkit/actions/workflows/playwright.yml)
+
 # Playwright Advanced Testing Toolkit
 
 Advanced QA Automation project demonstrating real-world test architecture using Playwright.
