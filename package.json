@@ -1,0 +1,23 @@
+{
+  "name": "playwright-advanced-testing-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:flaky": "playwright test -g \\@flaky\"",
+    "test:stable": "playwright test -g \\@stable\"",
+    "test:a11y": "playwright test -g \\@a11y\"",
+    "test:visual": "playwright test -g \\@visual\"",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.2"
+  }
+}
